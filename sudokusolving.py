@@ -1,7 +1,4 @@
-from zipfile import ZipFile
-file = "sudokusolving.zip" # zip file name
-with ZipFile(file, 'r') as zip:
-   zip.printdir()
+
 board = [
     [7, 8, 0, 4, 0, 0, 1, 2, 0],
     [6, 0, 0, 0, 7, 5, 0, 0, 9],
